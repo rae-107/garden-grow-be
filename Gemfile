@@ -44,6 +44,7 @@ end
 group :test do
   gem 'vcr'
   gem 'simplecov', require: false
+  gem 'shoulda-matchers'
 end
 
 group :development do
