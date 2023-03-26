@@ -18,4 +18,7 @@ namespace :csv_load do
     end
     ActiveRecord::Base.connection.reset_pk_sequence!("vegetable_zones")
   end
+  desc "load all csv files into db"
+  task all: [:vegetables, :vegetable_zones] do
+  end
 end
