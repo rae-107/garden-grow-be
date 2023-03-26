@@ -5,9 +5,17 @@ namespace :csv_load do
   task vegetables: :environment do
     csv = File.read("./db/data/vegetables.csv")
     CSV.parse(csv, headers: true).each do |row|
-      require 'pry'; binding.pry
       Vegetable.create!(row.to_h)
     end
     ActiveRecord::Base.connection.reset_pk_sequence!("vegetables")
+  end
+
+  desc "loads the vegetable zones csv file into db"
+  task vegetable_zones: :environment do
+    csv = File.read("./db/data/vegetable_zones.csv")
+    CSV.parse(csv, headers: true).each do |row|
+      VegetableZone.create!(row.to_h)
+    end
+    ActiveRecord::Base.connection.reset_pk_sequence!("vegetable_zones")
   end
 end

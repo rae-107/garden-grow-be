@@ -1,0 +1,526 @@
+vegetable_id,zone,plant_seeds_indoors_start,plant_seeds_indoors_end,plant_seedlings_start,plant_seedlings_end,plant_seeds_outdoors_start,plant_seeds_outdoors_end
+1,1a,,,,,May 16,May 30
+2,1a,,,,,May 16,June 6
+3,1a,March 21,April 4,June 6,June 20,,
+4,1a,April 4,April 18,May 2,May 23,,
+5,1a,April 4,April 18,May 2,May 16,,
+6,1a,,,,,April 25,May 9
+7,1a,April 4,April 18,May 2,May 23,,
+8,1a,March 21,April 4,June 6,June 20,,
+9,1a,,,,,May 2,May 9
+10,1a,,,,,June 13,July 4
+11,1a,May 2,May 9,June 13,June 27,,
+12,1a,,,,,June 6,June 27
+13,1a,April 18,May 2,May 16,June 13,,
+14,1a,,,,,May 2,May 23
+15,1a,,,,,April 18,May 9
+16,1a,,,,,May 2,May 16
+17,1a,,,,,April 4,April 25
+18,1a,,,,,June 20,July 4
+19,1a,April 4,April 18,June 6,June 27,,
+20,1a,,,,,May 2,May 23
+21,1a,,,,,June 13,July 11
+1,1b,,,,,May 20,June 3
+2,1b,,,,,May 20,June 10
+3,1b,March 25,April 8,June 10,June 24,,
+4,1b,April 8,April 22,May 6,May 27,,
+5,1b,April 8,April 22,May 6,May 20,,
+6,1b,,,,,April 29,May 13
+7,1b,April 8,April 22,May 6,May 27,,
+8,1b,March 25,April 8,June 10,June 24,,
+9,1b,,,,,May 6,May 13
+10,1b,,,,,Jun 17,July 8
+11,1b,May 6,May 13,Jun 17,July 1,,
+12,1b,,,,,June 10,July 1
+13,1b,April 22,May 6,May 20,June 17,,
+14,1b,,,,,May 6,May 27
+15,1b,,,,,April 22,May 13
+16,1b,,,,,May 6,May 20
+17,1b,,,,,April 8,April 29
+18,1b,,,,,June 24,July 8
+19,1b,April 8,April 22,June 10,July 1,,
+20,1b,,,,,May 6,May 27
+21,1b,,,,,June 17,July 15
+1,2a,,,,,May 7,May 21
+2,2a,,,,,May 7,May 28
+3,2a,March 11,March 26,May 28,June 11,,
+4,2a,March 26,April 9,April 23,May 14,,
+5,2a,March 26,April 9,April 23,May 7,,
+6,2a,,,,,April 16,April 30
+7,2a,March 26,April 9,April 23,May 14,,
+8,2a,March 11,March 26,May 28,June 11,,
+9,2a,,,,,April 23,April 30
+10,2a,,,,,June 4,June 25
+11,2a,April 23,April 30,June 4,June 18,,
+12,2a,,,,,May 28,June 18
+13,2a,April 9,April 23,May 7,June 4,,
+14,2a,,,,,April 23,May 14
+15,2a,,,,,April 9,April 30
+16,2a,,,,,April 23,May 7
+17,2a,,,,,March 26,April 16
+18,2a,,,,,June 11,June 25
+19,2a,March 26,April 9,May 28,June 18,,
+20,2a,,,,,April 23,May 14
+21,2a,,,,,June 4,Jul 2
+1,2b,,,,,May 11,May 25
+2,2b,,,,,May 11,June 1
+3,2b,March 16,March 30,June 1,June 15,,
+4,2b,March 30,April 13,April 27,May 18,,
+5,2b,March 30,April 13,April 27,May 11,,
+6,2b,,,,,April 20,May 4
+7,2b,March 30,April 5,April 27,May 5,,
+8,2b,March 21,March 30,June 1,June 3,,
+9,2b,,,,,April 27,May 4
+10,2b,,,,,June 8,June 29
+11,2b,April 27,May 4,June 8,June 22,,
+12,2b,,,,,June 1,June 22
+13,2b,April 13,April 27,May 11,June 8,,
+14,2b,,,,,April 27,May 18
+15,2b,,,,,April 13,May 4
+16,2b,,,,,April 27,May 11
+17,2b,,,,,May 30,April 20
+18,2b,,,,,June 15,June 29
+19,2b,March 30,April 13,June 1,June 22,,
+20,2b,,,,,April 27,May 18
+21,2b,,,,,June 8,July 6
+1,3a,,,,,May 18,June 1
+2,3a,,,,,May 18,June 8
+3,3a,March 23,April 6,June 8,June 22,,
+4,3a,April 6,April 20,May 4,May 25,,
+5,3a,April 6,April 20,May 4,May 5,,
+6,3a,,,,,April 27,May 11
+7,3a,April 6,April 20,May 4,May 25,,
+8,3a,March 23,April 6,June 8,June 22,,
+9,3a,,,,,May 4,May 11
+10,3a,,,,,June 15,July 6
+11,3a,May 4,May 11,June 15,June 29,,
+12,3a,,,,,June 8,June 29
+13,3a,April 20,May 4,May 18,June 15,,
+14,3a,,,,,May 4,May 25
+15,3a,,,,,April 20,May 11
+16,3a,,,,,May 4,May 18
+17,3a,,,,,April 6,April 27
+18,3a,,,,,June 22,July 6
+19,3a,April 6,April 20,June 8,June 29,,
+20,3a,,,,,May 4,May 25
+21,3a,,,,,June 15,July 13
+1,3b,,,,,April 20,May 4
+2,3b,,,,,April 20,May 11
+3,3b,February 22,March 8,May 11,May 25,,
+4,3b,March 8,March 23,April 6,April 27,,
+5,3b,March 8,March 23,April 6,April 19,,
+6,3b,,,,,March 30,April 13
+7,3b,March 8 ,March 23,April 6,April 27,,
+8,3b,February 22,March 8,May 11,May 25,,
+9,3b,,,,,April 6,April 13
+10,3b,,,,,May 18,June 8
+11,3b,April 6,April 13,May 18,June 1,,
+12,3b,,,,,May 11,June 1
+13,3b,March 23,April 6,April 20,May 18,,
+14,3b,,,,,April 6,April 27
+15,3b,,,,,March 23,April 13
+16,3b,,,,,April 6,April 20
+17,3b,,,,,March 8,March 30
+18,3b,,,,,May 25,June 8
+19,3b,March 8,March 23,May 11,June 1,,
+20,3b,,,,,April 6 ,April 27
+21,3b,,,,,May 18,Jun 15
+1,4a,,,,,April 30,May 14
+2,4a,,,,,April 30,May 5
+3,4a,March 4,March 19,May 21,June 4,,
+4,4a,March 19,April 2,April 16,May 7,,
+5,4a,March 19,April 2,April 16,April 30,,
+6,4a,,,,,April 9,April 23
+7,4a,March 19,April 2,April 16,May 7,,
+8,4a,March 4,March 19,May 21,June 4,,
+9,4a,,,,,April 16,April 23
+10,4a,,,,,May 28,June 18
+11,4a,April 16,April 23,May 28,June 11,,
+12,4a,,,,,May 21,June 11
+13,4a,April 2,April 16,April 30,May 28,,
+14,4a,,,,,April 16,May 7
+15,4a,,,,,April 2,April 23
+16,4a,,,,,April 16,April 30
+17,4a,,,,,March 19,April 9
+18,4a,,,,,June 4,June 18
+19,4a,March 19,April 2,May 21,June 11,,
+20,4a,,,,,April 16,May 7
+21,4a,,,,,May 28,June 25
+1,4b,,,,,May 9,May 23
+2,4b,,,,,May 9,May 30
+3,4b,March 14,March 28,May 30,June 13,,
+4,4b,March 28,April 11,April 25 ,May 16,,
+5,4b,March 28,April 11,April 25 ,May 9,,
+6,4b,,,,,April 18,May 2
+7,4b,March 28,April 11,April 25,May 16,,
+8,4b,March 14,March 28,May 30,June 13,,
+9,4b,,,,,April 25,May 2
+10,4b,,,,,June 6,June 27
+11,4b,April 25,May 2,June 6,June 20,,
+12,4b,,,,,May 30,June 20
+13,4b,April 11,April 25,May 9,June 6,,
+14,4b,,,,,April 25,May 16
+15,4b,,,,,April 11,May 2
+16,4b,,,,,April 25,May 9
+17,4b,,,,,March 28,April 18
+18,4b,,,,,June 13,June 27
+19,4b,March 28,April 11,May 30,June 20,,
+20,4b,,,,,April 25,May 16
+21,4b,,,,,June 6,July 4
+1,5a,,,,,April 25,May 9
+2,5a,,,,,April 25,May 16
+3,5a,February 27,March 14,May 16,May 30,,
+4,5a,March 14,March 28,April 11,May 2,,
+5,5a,March 14,March 28,April 11,April 25,,
+6,5a,,,,,April 14,April 18
+7,5a,March 14,March 28,April 11,May 2,,
+8,5a,February 27,March 14,May 16,May 30,,
+9,5a,,,,,April 11,April 18th
+10,5a,,,,,May 23,Jun 13
+11,5a,April 11,April 18,May 23,June 6,,
+12,5a,,,,,May 16,June 6
+13,5a,May 28,April 11,April 25,May 23,,
+14,5a,,,,,April 11,May 2
+15,5a,,,,,March 28,April 18
+16,5a,,,,,April 11,April 25
+17,5a,,,,,March 14,April 4
+18,5a,,,,,May 30,June 13
+19,5a,March 14,March 28,May 16,June 6,,
+20,5a,,,,,April 11,May 2
+21,5a,,,,,May 23,June 20
+1,5b,,,,,April 24,May 8
+2,5b,,,,,April 24,May 15
+3,5b,February 26,March 13,May 15,May 29,,
+4,5b,March 13,March 27,April 10,May 1,,
+5,5b,March 13,March 27,April 10,April 24,,
+6,5b,,,,,April 3,April 17
+7,5b,March 13,March 27,April 10,May 1,,
+8,5b,February 26,March 13,May 15,May 29,,
+9,5b,,,,,April 10,April 17
+10,5b,,,,,May 22,June 12
+11,5b,April 10,April 17,May 22,June 5,,
+12,5b,,,,,May 15,June 5
+13,5b,March 27,April 10,April 24,May 22,,
+14,5b,,,,,April 10,May 1
+15,5b,,,,,March 27,April17
+16,5b,,,,,April 10,April 24
+17,5b,,,,,March 13,April 3
+18,5b,,,,,May 29,June 12
+19,5b,March 13,March 27,May 15,June 5,,
+20,5b,,,,,April 10,May 1
+21,5b,,,,,May 22,June 19
+1,6a,,,,,April 23,May 7
+2,6a,,,,,April 23,May 14
+3,6a,February 25,March 11,May 14,May 28,,
+4,6a,March 11,March 26,April 9,April 30,,
+5,6a,March 11,March 26,April 9,April 23,,
+6,6a,,,,,April 2,April 16
+7,6a,March 11,March 26,April 9,April 30,,
+8,6a,February 25,March 11,May 14,May 28,,
+9,6a,,,,,April 9,April 16
+10,6a,,,,,May 21,June 11
+11,6a,April 9,April 16,May 21,June 4,,
+12,6a,,,,,May 14,June 4
+13,6a,March 26,April 9,April 23,May 21,,
+14,6a,,,,,April 9,April 30
+15,6a,,,,,March 26,April16
+16,6a,,,,,April 9,April 23
+17,6a,,,,,March 11,April 2 
+18,6a,,,,,May 28,June 11
+19,6a,March 11,March 26,May 14,June 4,,
+20,6a,,,,,April 9,April 30
+21,6a,,,,,May 21,June 18
+1,6b,,,,,April 4,April 18
+2,6b,,,,,April 4,April 25
+3,6b,February 6,February 20,April 25,May 9,,
+4,6b,February 20,March 6,March 21,April 11,,
+5,6b,February 20,March 6,March 21,April 4,,
+6,6b,,,,,March 14,March 28
+7,6b,February 20,March 6,March 21,April 11,,
+8,6b,February 6,February 20,April 25,May 9,,
+9,6b,,,,,March 21,March 28
+10,6b,,,,,May 2,May 23
+11,6b,March 21,March 28,May 2,May 16,,
+12,6b,,,,,April 25,May 16
+13,6b,March 6,March 21,April 4,May2,,
+14,6b,,,,,March 21,April 11
+15,6b,,,,,March 6,March 28
+16,6b,,,,,March 21,April 4
+17,6b,,,,,February 20,March 14
+18,6b,,,,,May 9,May 23
+19,6b,February 20,March 6,April 25,May 16,,
+20,6b,,,,,March 21,April 11
+21,6b,,,,,May 2,May 30
+1,7a,,,,,March 27,April 10
+2,7a,,,,,March 27,April 17
+3,7a,January 29,February 12,April 17,May 1,,
+4,7a,February 12,February 26,March 13,April 3,,
+5,7a,February 12,February 26,March 13,March 27,,
+6,7a,,,,,March 5,March 20
+7,7a,February 12,February 26,March 13,April 3,,
+8,7a,January 29,February 12,April 17,May 1,,
+9,7a,,,,,March 13,March 20
+10,7a,,,,,April 24,May 15
+11,7a,March 13,March 20,April 24,May 8,,
+12,7a,,,,,April 17,May 8
+13,7a,February 26,March 13,March 27,April 24,,
+14,7a,,,,,March 13,April 3
+15,7a,,,,,February 26,March 20
+16,7a,,,,,March 13,March 27
+17,7a,,,,,February 12,March 5
+18,7a,,,,,May 1,May 15
+19,7a,February 12,February 26,April 17,May 8,,
+20,7a,,,,,March 13,April 3
+21,7a,,,,,April 24,May 22
+1,7b,,,,,March 24,April 7
+2,7b,,,,,March 24,April 14
+3,7b,January 26,February 9,April 14,April 28,,
+4,7b,February 9,February 23,March 9,March 31,,
+5,7b,February 9,February 23,March 9,March 24,,
+6,7b,,,,,March 2,March 17
+7,7b,February 9,February 23,March 9,March 31,,
+8,7b,January 26,February 23,April 14,April 28,,
+9,7b,,,,,March 9,March 17
+10,7b,,,,,April 21,May 12
+11,7b,March 9,March 17,April 21,May 5,,
+12,7b,,,,,April 14,May 5
+13,7b,February 23,March 9,March 24,April 21,,
+14,7b,,,,,March 9,March 31
+15,7b,,,,,February 23,March 17
+16,7b,,,,,March 9,March 24
+17,7b,,,,,February 9,March 2
+18,7b,,,,,April 28,May 12
+19,7b,February 9,February 23,April 14,May 5,,
+20,7b,,,,,March 9,March 31
+21,7b,,,,,April 21,May 19
+1,8a,,,,,April 21,May 5
+2,8a,,,,,April 21,May 12
+3,8a,February 23,March 9,May 12,May 26,,
+4,8a,March 9,March 24,April 7,April 28,,
+5,8a,March 9,Ma,April 7,April 21,,
+6,8a,,,March 31,April 14,,
+7,8a,March 9,March 24,April 7,April 28,,
+8,8a,February 23,March 9,March 12,March 26,,
+9,8a,,,,,April 7,April 14
+10,8a,,,,,May 19,Jun 9
+11,8a,April 7,April 14,May 19,June 2,,
+12,8a,,,,,May 12,June 2
+13,8a,March 24,April 7,April 21,May 19,,
+14,8a,,,,,April 7,April 28
+15,8a,,,,,March 24,April 14
+16,8a,,,,,April 7,April 21
+17,8a,,,,,March 9,March 31
+18,8a,,,,,May 26,June 9
+19,8a,March 9,March 24,May 12,June 12,,
+20,8a,,,,,April 7,April 28
+21,8a,,,,,May 19,June 16
+1,8b,,,,,March 1,March 16
+2,8b,,,,,March 1,March 23
+3,8b,January 4,January 18,March 23,April 6,,
+4,8b,January 18,February 1,February 15,March 8,,
+5,8b,January 18,February 1,February 15,March 1,,
+6,8b,,,,,February 8,February 22
+7,8b,January 18,February 1,February 15,March 8,,
+8,8b,January 4,January 18,March 23,April 6,,
+9,8b,,,,,February 15,February 22
+10,8b,,,,,March 30,April 20
+11,8b,February 15,February 22,March 30,April 13,,
+12,8b,,,,,March 23,April 13
+13,8b,February 1,February 15,March 1,March 30,,
+14,8b,,,,,February 15,March 8
+15,8b,,,,,February 1,February 22
+16,8b,,,,,February 15,March 1
+17,8b,,,,,January 18,February 8
+18,8b,,,,,April 6,April 20
+19,8b,January 18,February 1,March 23,April 13,,
+20,8b,,,,,February 15,March 5
+21,8b,,,,,March 30,April 27
+1,9a,,,,,February 15,March 1
+2,9a,,,,,February 15,March 8
+3,9a,December 21,January 4,March 8,March 22,,
+4,9a,January 4,January 8,February 1,February 22,,
+5,9a,January 4,January 18,February 1,February 15,,
+6,9a,,,,,January 25,February 8
+7,9a,January 4,January 18,February 1,February 22,,
+8,9a,December 21,January 4,March 8,March 22,,
+9,9a,,,,,February 1,February 8
+10,9a,,,,,March 15,April 5
+11,9a,February 1,February 8,March 15,March 29,,
+12,9a,,,,,March 8,March 29
+13,9a,January 18,February 1,February 15,March 15,,
+14,9a,,,,,February 1,February 22
+15,9a,,,,,January 18,February 8
+16,9a,,,,,February 1,February 15
+17,9a,,,,,January 4,January 25
+18,9a,,,,,March 22,April 5
+19,9a,January 4,January 18,March 8,March 29,,
+20,9a,,,,,February 1,February 22
+21,9a,,,,,March 15,April 12
+1,9b,,,,,February 15,March 1
+2,9b,,,,,February 15,March 8
+3,9b,December 21,January 4,March 8,March 22,,
+4,9b,January 4,January 18,February 1,February 22,,
+5,9b,January 4,January 18,February 1,February 15,,
+6,9b,,,,,January 25,February 8
+7,9b,January 4,January 18,February 1,February 22,,
+8,9b,December 21,January 4,March 8,March 22,,
+9,9b,,,,,Febraury 1,February 8
+10,9b,,,,,March 15,April 5
+11,9b,February 1,February 8,March 15,March 29,,
+12,9b,,,,,March 1,April 5
+13,9b,January 18,Febraury 1,February 15,March 15,,
+14,9b,,,,,February 1,February 22
+15,9b,,,,,January 18,February 8
+16,9b,,,,,February 1,February 15
+17,9b,,,,,January 4,January 25
+18,9b,,,,,March 22,April 5
+19,9b,January 4,Janaury 18,March 8,March 29,,
+20,9b,,,,,February 1,February 22
+21,9b,,,,,March 15,April 12
+1,10a,,,,,February 1,March 1
+2,10a,,,,,February 15,March 8
+3,10a,Decemeber 21,January 4,March 8,March 22,,
+4,10a,January 4,January 18,Febraury 1,February 22,,
+5,10a,January 4,January 18,Febraury 1,February 15,,
+6,10a,,,,,January 25,February 8
+7,10a,January 4,January 18,February 1,February 22,,
+8,10a,December 21,January 4, March 8,March 22,,
+9,10a,,,,,February 1,February 8
+10,10a,,,,,March 15,April 5
+11,10a,February 1,February 8,March 15,March 29,,
+12,10a,,,,,March 8,March 29
+13,10a,January 18,February 1,February 15,March 15,,
+14,10a,,,,,February 1,February 22
+15,10a,,,,,January 18,February 4
+16,10a,,,,,February 1,February 15
+17,10a,,,,,January 4,January 25
+18,10a,,,,,March 22,April 5
+19,10a,January 4,January 18,March 8,March 29,,
+20,10a,,,,,February 1,February 22
+21,10a,,,,,March 15,April 12
+1,10b,,,,,February 15,March 1
+2,10b,,,,,February 15,March 8
+3,10b,Decemeber 21,January 4,March 8,March 22,,
+4,10b,January 4,January 18,February 1,February 22,,
+5,10b,January 4,January 18,February 1,February 22,,
+6,10b,,,,,January 25,February 8
+7,10b,January 4,January 18,February 1,February 22,,
+8,10b,December 21,January 4,March 8,March 22,,
+9,10b,,,,,February 1,February 8
+10,10b,,,,,March 15,April 5
+11,10b,February 1,February 8,March 15,March 29,,
+12,10b,,,,,March 8,March 29
+13,10b,January 18,February 1,February 15,March 15,,
+14,10b,,,,,February 1,February 22
+15,10b,,,,,January 18,February 8
+16,10b,,,,,February 1,February 15
+17,10b,,,,,January 4,January 25
+18,10b,,,,,March 22,April 5
+19,10b,January 4,January 6,March 8,March 29,,
+20,10b,,,,,February 1,February 22
+21,10b,,,,,March 15,April 12
+1,11a,,,,,February 15,March 1
+2,11a,,,,,February 15,March 8
+3,11a,December 21,January 4,March 8,March 22,,
+4,11a,January 4,January 18,February 1,February 22,,
+5,11a,January 4,January 18,February 1,February 15,,
+6,11a,,,,,January 25,February 8
+7,11a,January 4,January 18,February 1,February 22,,
+8,11a,December 21,January 4,March 8,March 22,,
+9,11a,,,,,February 1,February 8
+10,11a,,,,,March 15,April 5
+11,11a,February 1,February 8,March 15,March 29,,
+12,11a,,,,,March 8,March 29
+13,11a,January 18,February 1,February 15,March 15,,
+14,11a,,,,,February 1,February 22
+15,11a,,,,,January 18,February 8
+16,11a,,,,,February 1,February 15
+17,11a,,,,,January 4,January 25
+18,11a,,,,,March 22,April 5
+19,11a,January 4,January 18,March 8,March 29,,
+20,11a,,,,,February 1,February 22
+21,11a,,,,,March 15,April 12
+1,11b,,,,,February 15,March 1
+2,11b,,,,,February 15,March 8
+3,11b,December 21,January 4,March 8,March 22,,
+4,11b,January 4,January 18,February 1,February 22,,
+5,11b,January 4,January 18,February 1,February 15,,
+6,11b,,,,,January 25,February 8
+7,11b,January 4,January 18,February 1,February 22,,
+8,11b,December 21,January 4,March 8,March 22,,
+9,11b,,,,,February 1,February 8
+10,11b,,,,,March 15,April 5
+11,11b,February 1,February 8,March 15,March 29,,
+12,11b,,,,,March 8,March 29
+13,11b,January 18,February 1,February 15,March 15,,
+14,11b,,,,,February 1,February 22
+15,11b,,,,,January 18,February 8
+16,11b,,,,,February 1,February 15
+17,11b,,,,,January 4,January 25
+18,11b,,,,,March 22,April 5
+19,11b,January 4,January 18,March 8,March 29,,
+20,11b,,,,,February 1,February 22
+21,11b,,,,,March 15,April 12
+1,12a,,,,,February 15,March 1
+2,12a,,,,,February 15,March 8
+3,12a,December 21,January 4,March 8,March 22,,
+4,12a,January 4,January 18,February 1,February 22,,
+5,12a,January 4,January 18,February 1,February 15,,
+6,12a,,,,,January 25,February 8
+7,12a,January 4,January 18,February 1,February 22,,
+8,12a,December 21,January 4,March 8,March 22,,
+9,12a,,,,,February 1,February 8
+10,12a,,,,,March 15,April 5
+11,12a,February 1,February 8,March 15,March 29,,
+12,12a,,,,,March 8,March 29
+13,12a,January 18,February 1,February 15,March 15,,
+14,12a,,,,,February 1,February 22
+15,12a,,,,,January 18,February 8
+16,12a,,,,,February 1,February 15
+17,12a,,,,,January 4,January 25
+18,12a,,,,,March 22,April 4
+19,12a,January 4,January 18,March 8,March 29,,
+20,12a,,,,,February 1,February 22
+21,12a,,,,,March 15,April 12
+1,12b,,,,,February 15,March 1
+2,12b,,,,,February 15,March 15
+3,12b,December 21,January 4,March 8,March 22,,
+4,12b,January 4,January 18,February 1,February 22,,
+5,12b,January 4,January 18,February 1,February 15,,
+6,12b,,,,,January 25,February 8
+7,12b,January 4,January 18,February 1,February 22,,
+8,12b,December 21,January 4,March 8,March 22,,
+9,12b,,,,,February 1,February 8
+10,12b,,,,,March 15,April 5
+11,12b,February 1,February 8,March 15,March 29,,
+12,12b,,,,,March 8,March 29
+13,12b,January 18,February 1,February 15,March 15,,
+14,12b,,,,,February 1,February 22
+15,12b,,,,,January 18,February 8
+16,12b,,,,,February 1,February 15
+17,12b,,,,,January 4,January 25
+18,12b,,,,,March 22,April 5
+19,12b,January 4,January 18,March 8,March 29,,
+20,12b,,,,,February 1,February 22
+21,12b,,,,,March 15,April 12
+1,13a,,,,,February 15,March 1
+2,13a,,,,,February 15,March 8
+3,13a,December 21,January 4,March 8,March 22,,
+4,13a,January 4,January 18,February 1,February 22,,
+5,13a,January 4,January 18,February 1,February 15,,
+6,13a,,,,,January 25,February 8
+7,13a,January 4,January 18,February 1,February 22,,
+8,13a,December 21,January 4,March 8,March 22,,
+9,13a,,,,,February 1,February 8
+10,13a,,,,,March 15,April 5
+11,13a,February 1,February 8,March 15,March 29,,
+12,13a,,,,,March 8,March 29
+13,13a,January 18,February 1,February 15,March 15,,
+14,13a,,,,,February 1,February 22
+15,13a,,,,,January 18,February 8
+16,13a,,,,,February 1,February 15
+17,13a,,,,,January 4,January 25
+18,13a,,,,,March 22,April 5
+19,13a,January 4,January 18,March 8,March 29,,
+20,13a,,,,,February 1,February 22
+21,13a,,,,,March 21,April 5
