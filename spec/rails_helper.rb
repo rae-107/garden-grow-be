@@ -3,6 +3,14 @@ require 'spec_helper'
 require 'simplecov'
 SimpleCov.start
 
+require 'vcr'
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/vcr'
+  c.filter_sensitive_data('rapidAPI>') { ENV['rapidAPI'] }
+  c.hook_into :webmock
+  c.configure_rspec_metadata!
+end
+
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 # Prevent database truncation if the environment is production
