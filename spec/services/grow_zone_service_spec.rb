@@ -7,8 +7,10 @@ RSpec.describe GrowZoneService, type: :service do
       service = GrowZoneService.get_zone(zipcode)
 
       expect(service).to be_a(Hash)
-      expect(service).to have_key(:activity)
-      expect(service[:activity]).to be_a(String)
+      expect(service).to have_key(:hardiness_zone)
+      expect(service[:hardiness_zone]).to be_a(String)
+      expect(service).to have_key(:zipcode)
+      expect(service[:zipcode]).to be_a(String)
     end
   end
 end
