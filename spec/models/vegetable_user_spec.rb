@@ -1,5 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe VegetableUser, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should belongs_to :user }
+  it { should belongs_to :vegetable }
 end
