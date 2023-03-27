@@ -29,7 +29,7 @@ Check us out! **** WIP **** HEROKU DEPLOYMENT LINK ****
 
 ## Schema
 <p align="center">
-  <img width="300" src="https://user-images.githubusercontent.com/113324661/222261562-e7764f35-a8e2-4a7a-99ed-5d1e0a5ba159.png">
+  WIP https://app.dbdesigner.net/designer/schema/0-set_list-085a9188-53a3-48f1-a509-524670b19419 WIP
 </p>
 
 ## API Endpoints
