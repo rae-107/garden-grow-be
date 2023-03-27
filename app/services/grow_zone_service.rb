@@ -7,7 +7,7 @@ class GrowZoneService
   def self.conn
     Faraday.new(
       url: 'https://plant-hardiness-zone.p.rapidapi.com',
-      headers: { 'X-RapidAPI-Key': ENV['X-RapidAPI-Key'] }
+      headers: { 'X-RapidAPI-Key': ENV['rapidAPI'] }
     )
   end
 

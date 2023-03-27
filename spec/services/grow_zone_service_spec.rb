@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe GrowZoneService, type: :service do
   context 'class methods' do
-    it 'returns a grow zone from supplied zipcode' do
+    it 'returns a grow zone from supplied zipcode', :vcr do
       zipcode = '80218'
       service = GrowZoneService.get_zone(zipcode)
 
