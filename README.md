@@ -29,7 +29,9 @@ Check us out! https://dashboard.heroku.com/apps/garden-grow-be
 
 ## Schema
 <p align="center">
-  WIP https://app.dbdesigner.net/designer/schema/0-set_list-085a9188-53a3-48f1-a509-524670b19419 WIP
+ 
+ ![schema_garden_grow](https://user-images.githubusercontent.com/108754743/228678001-83af09a1-6e3a-47db-8ce3-371d81c65787.png)
+
 </p>
 
 ## API Endpoints
@@ -38,7 +40,7 @@ Here is a list of all mapped client requests with their respective json response
 <summary> 'Get ZipCode Lookup' </summary>
 <br>
   
-  ****WIP****
+ https://documenter.getpostman.com/view/25530798/2s93RRxu6h
   
  </details>
  
@@ -59,13 +61,9 @@ Here is a list of all mapped client requests with their respective json response
  </details> 
  
 ## Tech Stack
-https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white
 
-https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white
+![Screen Shot 2023-03-29 at 5 41 35 PM](https://user-images.githubusercontent.com/108754743/228691896-18d9ee24-cf84-4c68-935d-e57581c31f73.png)
 
-![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
-
-https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
 
 ## Setup and Installation
 
@@ -74,15 +72,21 @@ From your terminal, run:
 
 
 ## Learning Goals
-
+* Demonstrate knowledge you’ve gained throughout Turing
+* Use an agile process to turn well defined requirements into deployed and production ready software
+* Gain experience dividing applications into components and domains of responsibilities to facilitate multi-developer teams. Service oriented architecture concepts and patterns are highly encouraged.
+* Explore and implement new concepts, patterns, or libraries that have not been explicitly taught while at Turing
+* Practice an advanced, professional git workflow including a Pull Request Review
+* Gain experience using continuous integration tools to build and automate the deployment of features
+* Build applications that execute in development, test, CI, and production environments
+* Focus on communication between front-end and back-end teams in order to complete and deploy features that have been outlined by the project spec
 
 
 ## API Information
 
 Needs API key
-- <a href= "https://developers.google.com/youtube/v3/getting-started">Google API </a> 
-- <a href= "https://unsplash.com/join">Unsplash API</a>
-- <a href= "https://developer.edamam.com/edamam-recipe-api">Edamam API</a>
+- <a href= "https://rapidapi.com/fireside-worldwide-fireside-worldwide-default/api/plant-hardiness-zone/details">RapidAPI Hardiness Zone </a> 
+
 
 
 ## Responsible Parties
