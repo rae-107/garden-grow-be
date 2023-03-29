@@ -14,7 +14,7 @@ module Types
 
     def vegetables_by_zipcode(args)
       zone = get_grow_zone(args)
-      require 'pry'; binding.pry
+
       {
         grow_zone: zone,
         vegetables: Vegetable.all
