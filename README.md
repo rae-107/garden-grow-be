@@ -25,7 +25,7 @@
 
 
 
-Check us out! **** WIP **** HEROKU DEPLOYMENT LINK ****
+Check us out! https://dashboard.heroku.com/apps/garden-grow-be
 
 ## Schema
 <p align="center">
@@ -59,9 +59,13 @@ Here is a list of all mapped client requests with their respective json response
  </details> 
  
 ## Tech Stack
+https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white
 
-**** WIP ****
+https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white
 
+![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
+
+https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
 
 ## Setup and Installation
 
