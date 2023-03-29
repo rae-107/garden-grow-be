@@ -7,19 +7,26 @@ module Types
     # Add root-level fields here.
     # They will be entry points for queries on your schema.
 
-    # TODO: remove me
     field :vegetables_by_zipcode, Types::ZipcodeResultType, null: false do
       description 'Returns a zone and basic vegetable details'
       argument :zipcode, String, required: true
     end
 
     def vegetables_by_zipcode(args)
-      zone = GrowZoneFacade.get_zone(args[:zipcode])
-
+      zone = get_grow_zone(args)
+      require 'pry'; binding.pry
       {
-        grow_zone: zone, # temp while service is built
+        grow_zone: zone,
         vegetables: Vegetable.all
       }
+    end
+
+    private
+
+    def get_grow_zone(args)
+      Rails.cache.fetch("grow_zone_query-#{args[:zipcode]}", expires_in: 24.hours) do
+        GrowZoneFacade.get_zone(args[:zipcode])
+      end
     end
   end
 end
