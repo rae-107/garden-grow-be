@@ -73,7 +73,7 @@ From your terminal, run:
 - ```bundle install```
 - ```rails db:create```
 - To run the tests: ```bundle exec rspec```
-- <a href= "https://babe-whats-for-dinner-be.herokuapp.be"> Click Here </a>to run the server
+- <a href= "https://dashboard.heroku.com/apps/garden-grow-be"> Click Here </a>to run the server
 
 
 
