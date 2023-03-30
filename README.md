@@ -13,6 +13,7 @@
 
 - [Project Overview](#project-overview)
 - [Schema](#schema)
+- [API Endpoints](#api-endpoints)
 - [Tech Stack](#tech-stack)
 - [Setup and Installation](#setup-and-installation)
 - [Learning Goals](#learning-goals)
@@ -68,6 +69,11 @@ Here is a list of all mapped client requests with their respective json response
 ## Setup and Installation
 
 From your terminal, run:
+- ```git clone https://github.com/Garden-Grow-Turing/garden-grow-be```
+- ```bundle install```
+- ```rails db:create```
+- To run the tests: ```bundle exec rspec```
+- <a href= "https://babe-whats-for-dinner-be.herokuapp.be"> Click Here </a>to run the server
 
 
 
