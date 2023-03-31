@@ -12,6 +12,11 @@ module Types
       argument :zipcode, String, required: true
     end
 
+    field :vegetable_details, Types::VegetableType, null: false do
+      description 'return details about a specific vegetable'
+      argument :vegetable_id, String, required: true
+    end
+
     def vegetables_by_zipcode(args)
       zone = get_grow_zone(args)
 
@@ -19,6 +24,10 @@ module Types
         grow_zone: zone,
         vegetables: Vegetable.all
       }
+    end
+
+    def vegetable_details(args)
+      Vegetable.find(args[:vegetable_id])
     end
 
     private
