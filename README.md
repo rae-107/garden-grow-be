@@ -63,7 +63,7 @@ Here is a list of all mapped client requests with their respective json response
  
 ## Tech Stack
 
-![Screen Shot 2023-03-29 at 5 41 35 PM](https://user-images.githubusercontent.com/108754743/228691896-18d9ee24-cf84-4c68-935d-e57581c31f73.png)
+![Screen Shot 2023-03-31 at 8 43 20 AM](https://user-images.githubusercontent.com/108754743/229152857-f0dd43ea-be9e-4e42-9d00-3a1108f88f1a.png)
 
 
 ## Setup and Installation
@@ -101,5 +101,5 @@ Needs API key
 | ------------------ | ------------ | -------------- | ----------- | -------------- | ----------- |  ----------- |
 | Alex Pitzel | Lacey Weaver | J Seymour | Josephine Heidepriem | Karim Al-Rashdan | Rae Gebhart |  Ciera Muniz |
 | Collaborator | Collaborator | Collaborator | Collaborator | Collaborator | Collaborator |  Collaborator |
-| [GitHub](https://github.com/pitzelalex) | [GitHub](https://github.com/jlweave) | [GitHub](https://github.com/JustJakeSeymour) | [GitHub](https://github.com/jheidepriem) | [GitHub](https://github.com/KarimAl-Rashdan) | [GitHub](https://github.com/rae-107) |  [GitHub](hthttps://github.com/cieragrace) |
+| [GitHub](https://github.com/pitzelalex) | [GitHub](https://github.com/jlweave) | [GitHub](https://github.com/JustJakeSeymour) | [GitHub](https://github.com/jheidepriem) | [GitHub](https://github.com/KarimAl-Rashdan) | [GitHub](https://github.com/rae-107) |  [GitHub](https://github.com/cieragrace) |
 | [LinkedIn](https://www.linkedin.com/in/alex-pitzel-231619235/) |  [LinkedIn](https://www.linkedin.com/in/lacey-weaver-be-dev/) | [LinkedIn](https://www.linkedin.com/in/j-seymour/) | [LinkedIn](https://www.linkedin.com/in/josephine-heidepriem/) | [LinkedIn](https://www.linkedin.com/in/karimal-rashdan/) | [LinkedIn](https://www.linkedin.com/in/rae-gebhart/) |  [LinkedIn](https://www.linkedin.com/in/ciera-muniz/) |
