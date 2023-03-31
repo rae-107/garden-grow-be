@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'vegetables_by_zipcode', type: :request do
-  it 'returns a list of growing zone and vegetables by zipcode' do
+  it 'creates a new entry in the vegetable_user table' do
     veg = create(:vegetable, name: 'Arugula', image: 'arugula.jpg')
     user = create(:user, name: 'Alex')
 
