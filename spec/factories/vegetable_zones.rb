@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :vegetable_zone do
-    vegetable { nil }
+    association :vegetable
     zone { "MyString" }
     plant_seeds_indoors_start { "MyString" }
     plant_seeds_indoors_end { "MyString" }
