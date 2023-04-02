@@ -18,10 +18,7 @@ namespace :csv_load do
     end
     ActiveRecord::Base.connection.reset_pk_sequence!("vegetable_zones")
   end
-  desc "load all csv files into db"
-  task all: [:vegetables, :vegetable_zones] do
-  end
-
+  
   desc "loads the preset users csv file into db"
   task users: :environment do
     csv = File.read("./db/data/users.csv")
@@ -29,5 +26,9 @@ namespace :csv_load do
       User.create!(row.to_h)
     end
     ActiveRecord::Base.connection.reset_pk_sequence!("users")
+  end
+
+  desc "load all csv files into db"
+  task all: [:vegetables, :vegetable_zones, :users] do
   end
 end
