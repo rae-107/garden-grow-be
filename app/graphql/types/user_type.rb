@@ -10,7 +10,7 @@ module Types
     field :github, String
     field :email, String
     field :about_me, String
-    field :saved_vegetables, [Types::VegetableUserType], null: true
+    field :vegetable_users, [Types::VegetableUserType], null: true
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
   end
