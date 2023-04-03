@@ -44,7 +44,9 @@ RSpec.describe 'vegetable_details', type: :request do
              seedSpacing
              growingDuration
              image
-             zoneDetails(zone: "#{zone}")
+             zoneDetails(
+              zone: "#{zone}"
+            )
              {
                  plantSeedsIndoorsStart
                  plantSeedsIndoorsEnd
