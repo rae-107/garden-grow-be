@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :vegetable_user do
-    user { nil }
-    vegetable { nil }
+    association :user
+    association :vegetable
     notes { "MyString" }
   end
 end
