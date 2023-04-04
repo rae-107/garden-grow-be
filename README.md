@@ -46,21 +46,36 @@ Here is a list of all mapped client requests with their respective json response
  </details>
  
 <details>
-<summary> 'Get Vegetable Table' </summary>
+<summary> 'Get Vegetable Details' </summary>
 <br>
   
-  ****WIP****
+  https://documenter.getpostman.com/view/25530798/2s93RRxu6h
 
 </details>
   
 <details>
-<summary> 'Get User Lookup' </summary>
+<summary> 'User Details' </summary>
 <br> 
  
-   ****WIP****
+   https://documenter.getpostman.com/view/25530798/2s93RRxu6h
 
  </details> 
  
+ <details>
+<summary> 'Vegetable Add Vegetable to User' </summary>
+<br> 
+ 
+   https://documenter.getpostman.com/view/25530798/2s93RRxu6h
+
+ </details> 
+ 
+ <details>
+<summary> 'Update Vegetable User' </summary>
+<br> 
+ 
+   https://documenter.getpostman.com/view/25530798/2s93RRxu6h
+
+ </details> 
 ## Tech Stack
 
 ![Screen Shot 2023-03-31 at 8 43 20 AM](https://user-images.githubusercontent.com/108754743/229152857-f0dd43ea-be9e-4e42-9d00-3a1108f88f1a.png)
