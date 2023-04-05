@@ -1,0 +1,1 @@
+class GrowZoneError < StandardError; end
