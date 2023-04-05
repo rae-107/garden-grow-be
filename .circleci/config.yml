@@ -46,8 +46,24 @@ jobs: # a collection of steps
       - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
           path: test_results
       # See https://circleci.com/docs/2.0/deployment-integrations/ for example deploy configs
+  lint:
+    docker:
+      - image: circleci/ruby:2.7.4
+    steps:
+      - run: gem install rubocop
+      - run: rubocop
 workflows:
-  build-test:
+  build-test-lint-deploy:
     jobs:
       - build-and-test:
           context: back-end
+      - lint
+          context: back-end
+      - heroku/deploy-via-git:
+          requires:
+            - build-and-test
+            - lint
+          post-steps:
+            - run:
+              name: migrate
+              command: heroku run -a garden-grow-be rails db:migrate
