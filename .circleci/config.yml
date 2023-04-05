@@ -59,8 +59,7 @@ jobs: # a collection of steps
       - checkout
       - run: 
           name: Deploy Main to Heroku
-          command: |
-          git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git main
+          command: git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git main
 workflows:
   build-test-lint-deploy:
     jobs:
@@ -69,9 +68,9 @@ workflows:
       - lint:
           context: back-end
       - deploy:
-          requires:
+          requires: 
           - build-and-test
           - lint
-          filters:
-          branches:
+          filters: 
+            branches: 
               only: main
