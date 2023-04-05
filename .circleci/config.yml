@@ -59,11 +59,3 @@ workflows:
           context: back-end
       - lint:
           context: back-end
-      - heroku/deploy-via-git:
-          requires:
-            - build-and-test
-            - lint
-          post-steps:
-            - run:
-              name: migrate
-              command: heroku run -a garden-grow-be rails db:migrate
