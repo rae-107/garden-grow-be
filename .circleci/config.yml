@@ -57,7 +57,7 @@ workflows:
     jobs:
       - build-and-test:
           context: back-end
-      - lint
+      - lint:
           context: back-end
       - heroku/deploy-via-git:
           requires:
