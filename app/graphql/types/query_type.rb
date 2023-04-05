@@ -24,6 +24,8 @@ module Types
 
     def user_details(args)
       User.find(args[:user_id])
+      rescue ActiveRecord::RecordNotFound => e
+      GraphQL::ExecutionError.new("Invalid input: #{e}")
     end
 
     def vegetables_by_zipcode(args)
@@ -37,6 +39,8 @@ module Types
 
     def vegetable_details(args)
       Vegetable.find(args[:vegetable_id])
+      rescue ActiveRecord::RecordNotFound => e
+      GraphQL::ExecutionError.new("Invalid input: #{e}")
     end
 
     private
