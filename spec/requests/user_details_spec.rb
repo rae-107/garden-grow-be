@@ -11,6 +11,8 @@ RSpec.describe 'user_details', type: :request do
 
     expect(response).to be_successful
 
+    expect(user[:data][:userDetails][:id]).to be_a String
+    expect(user[:data][:userDetails][:id]).to eq(user1.id.to_s)
     expect(user[:data][:userDetails][:name]).to be_a String
     expect(user[:data][:userDetails][:name]).to eq(user1.name)
     expect(user[:data][:userDetails][:name]).to_not eq(user2.name)
@@ -60,14 +62,15 @@ RSpec.describe 'user_details', type: :request do
       userDetails(
           userId: "#{id}"
           ) {
-             name
-             growZone
-             img
-             linkedIn
-             github
-             email
-             aboutMe
-             vegetableUsers{
+              id
+              name
+              growZone
+              img
+              linkedIn
+              github
+              email
+              aboutMe
+              vegetableUsers{
               vegetable{
                 name
               }
