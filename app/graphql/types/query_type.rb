@@ -11,7 +11,7 @@ module Types
       description 'return details about a specific user'
       argument :user_id, String, required: true
     end
-    
+
     field :vegetables_by_zipcode, Types::ZipcodeResultType, null: false do
       description 'Returns a zone and basic vegetable details'
       argument :zipcode, String, required: true
@@ -24,7 +24,7 @@ module Types
 
     def user_details(args)
       User.find(args[:user_id])
-      rescue ActiveRecord::RecordNotFound => e
+    rescue ActiveRecord::RecordNotFound => e
       GraphQL::ExecutionError.new("Invalid input: #{e}")
     end
 
@@ -35,11 +35,13 @@ module Types
         grow_zone: zone,
         vegetables: Vegetable.all
       }
+    rescue GrowZoneError
+      GraphQL::ExecutionError.new('Zipcode returned no result')
     end
 
     def vegetable_details(args)
       Vegetable.find(args[:vegetable_id])
-      rescue ActiveRecord::RecordNotFound => e
+    rescue ActiveRecord::RecordNotFound => e
       GraphQL::ExecutionError.new("Invalid input: #{e}")
     end
 

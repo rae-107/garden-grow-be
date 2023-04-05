@@ -20,6 +20,13 @@ RSpec.describe 'vegetables_by_zipcode', type: :request do
     expect(veggies[:data][:vegetablesByZipcode][:vegetables][1][:image]).to eq('tomato.jpg')
   end
 
+  it 'gracefully handles a bad zipcode', :vcr do
+    zip_query = query_vegetables_by_zipcode('1')
+
+    expect(zip_query).to have_key(:errors)
+    expect(zip_query[:errors][0][:message]).to eq('Zipcode returned no result')
+  end
+
   private
 
   def query_vegetables_by_zipcode(zipcode)
