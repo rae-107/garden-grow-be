@@ -52,14 +52,6 @@ jobs: # a collection of steps
     steps:
       - run: gem install rubocop
       - run: rubocop
-  deploy:
-    docker:
-      - image: circleci/ruby:2.7.4
-    steps:
-      - checkout
-      - run: 
-          name: Deploy Main to Heroku
-          command: git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git main
 workflows:
   build-test-lint-deploy:
     jobs:
@@ -67,10 +59,11 @@ workflows:
           context: back-end
       - lint:
           context: back-end
-      - deploy:
-          requires: 
-          - build-and-test
-          - lint
-          filters: 
-            branches: 
-              only: main
+      - heroku/deploy-via-git:
+          requires:
+            - build-and-test
+            - lint
+          filters:
+            branches:
+              only:
+                - main
