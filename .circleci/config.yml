@@ -67,10 +67,14 @@ workflows:
           context: back-end
       - lint:
           context: back-end
-      - deploy:
-          requires: 
-          - build-and-test
-          - lint
-          filters: 
-            branches: 
-              only: main
+      - heroku/deploy-via-git:
+          requires:
+            - build-and-test
+          post-steps:
+            - run:
+                name: migrate
+                command: heroku run -a $HEROKU_APP_NAME rails db:migrate
+          filters:
+            branches:
+              only:
+                - main
