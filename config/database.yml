@@ -83,3 +83,4 @@ production:
   database: garden-grow-be_production
   username: garden-grow-be
   password: <%= ENV['GARDEN-GROW-BE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
